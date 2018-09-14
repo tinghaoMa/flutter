@@ -10,6 +10,9 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Welcome to Flutter',
       home: new RandomWord(),
+      theme: new ThemeData(
+        primaryColor: Colors.green,
+      ),
     );
   }
 }
